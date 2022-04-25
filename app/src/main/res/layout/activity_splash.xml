@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout_01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/component_41"
+    tools:context=".SplashActivity"
+    tools:ignore="UselessParent">
+
+    <TextView
+        android:id="@+id/TextView_00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/font"
+        android:gravity="center"
+        android:text="@string/company_name"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        tools:ignore="RelativeOverlap" />
+
+    <ImageView
+        android:id="@+id/ImageView_01"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/logo_01"
+        tools:ignore="ContentDescription" />
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout_02"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/component_01"
+        tools:ignore="UselessParent">
+
+        <ProgressBar
+            android:id="@+id/ProgressBar_01"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:indeterminate="true"
+            android:max="100"
+            android:progress="0" />
+
+        <ImageView
+            android:id="@+id/ImageView_02"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginBottom="35dp"
+            android:src="@drawable/component_02"
+            tools:ignore="ContentDescription" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

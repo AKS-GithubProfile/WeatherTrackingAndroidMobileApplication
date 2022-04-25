@@ -1,0 +1,52 @@
+<resources>
+
+    <string name="app_name">WeatherTrackingAndroidMobileApplication</string>
+    <string name="company_name">Weather Tracker</string>
+    <string name="welcome_home">Welcome Home</string>
+    <string name="click_here_to_register_or_login_later">Click here to Register or Login later</string>
+    <string name="register_with_email_id">Register With Email ID</string>
+    <string name="already_have_an_account_login">Already Have An Account? Login</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="enter_full_name">Enter Full Name</string>
+    <string name="enter_location">Enter Location</string>
+    <string name="enter_email_id">Enter Email ID</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="forgot_your_password">Forgot your password?</string>
+    <string name="processing_request">Processing Request</string>
+    <string name="your_request_is_currently_being_processed_please_wait">Your request is currently being processed, please wait !</string>
+    <string name="location_1">Location</string>
+    <string name="current_date">Current Date</string>
+    <string name="current_location">Current Location</string>
+    <string name="latitude">Latitude</string>
+    <string name="N">00 N</string>
+    <string name="longitude">Longitude</string>
+    <string name="E">00 E</string>
+    <string name="current_temp">Current Temp.</string>
+    <string name="current_locality">Current Locality</string>
+    <string name="current_weather">Current Weather</string>
+    <string name="S_1">/</string>
+    <string name="temperature">Temperature</string>
+    <string name="T_1">00°</string>
+    <string name="temp">Temp.</string>
+    <string name="T_2">00°</string>
+    <string name="temp_min">Min. Temp.</string>
+    <string name="T_3">00°</string>
+    <string name="temp_max">Max. Temp.</string>
+    <string name="more_details">More Details</string>
+    <string name="S_2">/</string>
+    <string name="weather">Weather</string>
+    <string name="N_1">00%</string>
+    <string name="N_2">00</string>
+    <string name="feels_like">Feels Like</string>
+    <string name="N_3">00%</string>
+    <string name="pressure">Pressure</string>
+    <string name="full_name">Full Name</string>
+    <string name="your_full_name">Your Full Name</string>
+    <string name="location">Location</string>
+    <string name="your_location">Your Location</string>
+    <string name="email_id">Email ID</string>
+    <string name="your_email_id">Your Email ID</string>
+
+</resources>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout_46"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".UserActivity"
+    tools:ignore="UselessParent">
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout_47"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/component_42"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:id="@+id/LinearLayout_29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="280dp"
+            android:layout_marginRight="40dp"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:id="@+id/TextView_51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/font"
+                android:text="@string/full_name"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                tools:ignore="RelativeOverlap" />
+
+            <TextView
+                android:id="@+id/TextView_52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/font"
+                android:text="@string/your_full_name"
+                android:textColor="@color/grey01"
+                android:textSize="24sp"
+                tools:ignore="RelativeOverlap" />
+
+            <com.google.android.material.divider.MaterialDivider
+                android:id="@+id/MaterialDivider_01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                app:dividerColor="@color/white" />
+
+            <TextView
+                android:id="@+id/TextView_53"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/font"
+                android:text="@string/location"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                tools:ignore="RelativeOverlap" />
+
+            <TextView
+                android:id="@+id/TextView_54"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/font"
+                android:text="@string/your_location"
+                android:textColor="@color/grey01"
+                android:textSize="24sp"
+                tools:ignore="RelativeOverlap" />
+
+            <com.google.android.material.divider.MaterialDivider
+                android:id="@+id/MaterialDivider_02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                app:dividerColor="@color/white" />
+
+            <TextView
+                android:id="@+id/TextView_55"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/font"
+                android:text="@string/email_id"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                tools:ignore="RelativeOverlap" />
+
+            <TextView
+                android:id="@+id/TextView_56"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/font"
+                android:text="@string/your_email_id"
+                android:textColor="@color/grey01"
+                android:textSize="24sp"
+                tools:ignore="RelativeOverlap" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

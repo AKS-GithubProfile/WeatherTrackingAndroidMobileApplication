@@ -1,0 +1,11 @@
+<resources>
+
+    <style name="Theme.WeatherTrackingAndroidMobileApplication" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/grey03</item>
+        <item name="colorPrimaryDark">@color/grey03</item>
+        <item name="colorAccent">@color/grey03</item>
+
+    </style>
+
+</resources>

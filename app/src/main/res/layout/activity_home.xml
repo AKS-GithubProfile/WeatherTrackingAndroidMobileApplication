@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout_03"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/component_03"
+    tools:context=".HomeActivity"
+    tools:ignore="UselessParent">
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout_04"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/component_04"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/ImageView_03"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginRight="45dp"
+            android:layout_marginBottom="45dp"
+            android:src="@drawable/component_05"
+            tools:ignore="ContentDescription" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout_05"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/component_06"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/ImageView_04"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginBottom="35dp"
+            android:src="@drawable/logo_01"
+            tools:ignore="ContentDescription" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/TextView_01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font"
+            android:gravity="center"
+            android:text="@string/welcome_home"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            tools:ignore="RelativeOverlap" />
+
+        <TextView
+            android:id="@+id/TextView_02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/font"
+            android:gravity="center"
+            android:text="@string/click_here_to_register_or_login_later"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            tools:ignore="RelativeOverlap" />
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout_06"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/component_07"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:id="@+id/TextView_03"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/font"
+                android:gravity="center"
+                android:text="@string/register_with_email_id"
+                android:textColor="@color/grey03"
+                android:textSize="20sp"
+                tools:ignore="RelativeOverlap" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout_07"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/component_08"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:id="@+id/TextView_04"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/font"
+                android:gravity="center"
+                android:text="@string/already_have_an_account_login"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="RelativeOverlap" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

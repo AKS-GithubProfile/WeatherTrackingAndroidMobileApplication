@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "993585736613",
+    "project_id": "weathertrackingapplication-24",
+    "storage_bucket": "weathertrackingapplication-24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:993585736613:android:94e53534ea0a177f2d964c",
+        "android_client_info": {
+          "package_name": "Com.Project.WeatherTrackingAndroidMobileApplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "993585736613-mhdfji0qqucb1c8gpasaqlbk0rn3gmm4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "Com.Project.WeatherTrackingAndroidMobileApplication",
+            "certificate_hash": "3a85aec071c0eba46d418bc5c2852bb33afd8204"
+          }
+        },
+        {
+          "client_id": "993585736613-0cn3r7qjn9pqdkinmqqmbt7vuueg8sqn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOD5vsgiWJzkFO1rSEPDFdfRWUxS_CBn8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "993585736613-0cn3r7qjn9pqdkinmqqmbt7vuueg8sqn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
